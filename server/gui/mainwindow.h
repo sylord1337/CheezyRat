@@ -16,6 +16,9 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
+    void newUserGui();
+
+private slots:
 
 private:
     Ui::MainWindow *ui;

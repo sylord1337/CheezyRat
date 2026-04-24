@@ -385,4 +385,46 @@ CMakeFiles/server.dir/src/network/network.cpp.obj: \
  D:/Qt/6.11.0/mingw_64/include/QtCore/QIODevice \
  D:/Qt/6.11.0/mingw_64/include/QtNetwork/QTcpServer \
  D:/Qt/6.11.0/mingw_64/include/QtNetwork/qtcpserver.h \
- D:/Qt/6.11.0/mingw_64/include/QtNetwork/QTcpSocket
+ D:/Qt/6.11.0/mingw_64/include/QtNetwork/QTcpSocket \
+ C:/Users/1/Desktop/CheezyRat/server/gui/mainwindow.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qtgui-config.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qtguiexports.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qmargins.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qcheckedint_impl.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qaction.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qkeysequence.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qicon.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qsize.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qpixmap.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qpaintdevice.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qrect.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qpoint.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qcolor.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qrgb.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qrgba64.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qimage.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qpixelformat.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qtransform.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qpolygon.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qregion.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qline.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qpalette.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qbrush.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qfont.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qendian.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qfontmetrics.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qfontinfo.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qfontvariableaxis.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qcursor.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qbitmap.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qtabwidget.h

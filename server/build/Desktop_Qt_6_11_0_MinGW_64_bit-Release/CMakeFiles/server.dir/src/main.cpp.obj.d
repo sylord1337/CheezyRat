@@ -428,6 +428,7 @@ CMakeFiles/server.dir/src/main.cpp.obj: \
  D:/Qt/6.11.0/mingw_64/include/QtNetwork/QTcpServer \
  D:/Qt/6.11.0/mingw_64/include/QtNetwork/qtcpserver.h \
  D:/Qt/6.11.0/mingw_64/include/QtNetwork/QTcpSocket \
+ C:/Users/1/Desktop/CheezyRat/server/gui/mainwindow.h \
  D:/Qt/6.11.0/mingw_64/include/QtWidgets/QApplication \
  D:/Qt/6.11.0/mingw_64/include/QtWidgets/qapplication.h \
  D:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication.h \

@@ -402,6 +402,13 @@ CMakeFiles/server.dir/gui/mainwindow.cpp.obj: \
  D:/Qt/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
  D:/Qt/6.11.0/mingw_64/include/QtCore/qlocale.h \
  D:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/QLabel \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qlabel.h \
+ D:/Qt/6.11.0/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qpicture.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.11.0/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.11.0/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
  D:/Qt/6.11.0/mingw_64/include/QtWidgets/QMenuBar \
  D:/Qt/6.11.0/mingw_64/include/QtWidgets/qmenubar.h \

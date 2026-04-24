@@ -3,5 +3,6 @@
 #include <QtNetwork/QNetworkReply>
 #include <QtNetwork/QTcpServer>
 #include <QtNetwork/QTcpSocket>
+#include "../../gui/mainwindow.h"
 
 void ServerStartup();
