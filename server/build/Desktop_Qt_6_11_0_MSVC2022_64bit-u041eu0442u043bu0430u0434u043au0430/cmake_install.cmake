@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/1/Desktop/cheezyRat/server
+# Install script for directory: C:/Users/1/Desktop/CheezyRat/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,11 +33,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/server.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/server.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qt/deploy_server_4a93cbd249.cmake")
+  include("C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qt/deploy_server_4a93cbd249.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,6 +55,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

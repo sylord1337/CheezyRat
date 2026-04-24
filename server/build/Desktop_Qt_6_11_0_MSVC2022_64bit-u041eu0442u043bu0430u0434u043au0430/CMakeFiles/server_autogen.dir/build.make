@@ -42,10 +42,10 @@ RM = D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\1\Desktop\cheezyRat\server
+CMAKE_SOURCE_DIR = C:\Users\1\Desktop\CheezyRat\server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430
+CMAKE_BINARY_DIR = C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430
 
 # Utility rule file for server_autogen.
 
@@ -60,9 +60,9 @@ CMakeFiles\server_autogen: server_autogen\timestamp
 server_autogen\timestamp: D:\Qt\6.11.0\msvc2022_64\bin\moc.exe
 server_autogen\timestamp: D:\Qt\6.11.0\msvc2022_64\bin\uic.exe
 server_autogen\timestamp: CMakeFiles\server_autogen.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target server"
-	D:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/CMakeFiles/server_autogen.dir/AutogenInfo.json Debug
-	D:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/server_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target server"
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/CMakeFiles/server_autogen.dir/AutogenInfo.json Debug
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/server_autogen/timestamp
 
 server_autogen: CMakeFiles\server_autogen
 server_autogen: server_autogen\timestamp
@@ -78,6 +78,6 @@ CMakeFiles\server_autogen.dir\clean:
 .PHONY : CMakeFiles\server_autogen.dir\clean
 
 CMakeFiles\server_autogen.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\1\Desktop\cheezyRat\server C:\Users\1\Desktop\cheezyRat\server C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles\server_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\1\Desktop\CheezyRat\server C:\Users\1\Desktop\CheezyRat\server C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles\server_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles\server_autogen.dir\depend
 

@@ -42,10 +42,10 @@ RM = D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\1\Desktop\cheezyRat\server
+CMAKE_SOURCE_DIR = C:\Users\1\Desktop\CheezyRat\server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430
+CMAKE_BINARY_DIR = C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430
 
 # Utility rule file for server_autogen_timestamp_deps.
 
@@ -67,6 +67,6 @@ CMakeFiles\server_autogen_timestamp_deps.dir\clean:
 .PHONY : CMakeFiles\server_autogen_timestamp_deps.dir\clean
 
 CMakeFiles\server_autogen_timestamp_deps.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\1\Desktop\cheezyRat\server C:\Users\1\Desktop\cheezyRat\server C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles\server_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\1\Desktop\CheezyRat\server C:\Users\1\Desktop\CheezyRat\server C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles\server_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles\server_autogen_timestamp_deps.dir\depend
 

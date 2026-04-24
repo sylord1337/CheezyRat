@@ -42,10 +42,10 @@ RM = D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\1\Desktop\cheezyRat\server
+CMAKE_SOURCE_DIR = C:\Users\1\Desktop\CheezyRat\server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430
+CMAKE_BINARY_DIR = C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430
 
 # Include any dependencies generated for this target.
 include CMakeFiles\server.dir\depend.make
@@ -61,61 +61,61 @@ include CMakeFiles\server.dir\flags.make
 CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.obj: CMakeFiles\server.dir\flags.make
 CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.obj: server_autogen\mocs_compilation.cpp
 CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.obj: CMakeFiles\server.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.obj.d --working-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 --filter-prefix="Note: including file: " -- "D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\server.dir\ /FS -c C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.obj.d --working-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 --filter-prefix="Note: including file: " -- "D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\server.dir\ /FS -c C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.i"
 	"D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" > CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server_autogen\mocs_compilation.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.s"
 	"D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.s /c C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server_autogen\mocs_compilation.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\server.dir\server_autogen\mocs_compilation.cpp.s /c C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\server.dir\main.cpp.obj: CMakeFiles\server.dir\flags.make
-CMakeFiles\server.dir\main.cpp.obj: C:\Users\1\Desktop\cheezyRat\server\main.cpp
+CMakeFiles\server.dir\main.cpp.obj: C:\Users\1\Desktop\CheezyRat\server\main.cpp
 CMakeFiles\server.dir\main.cpp.obj: CMakeFiles\server.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/main.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\server.dir\main.cpp.obj.d --working-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 --filter-prefix="Note: including file: " -- "D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\server.dir\main.cpp.obj /FdCMakeFiles\server.dir\ /FS -c C:\Users\1\Desktop\cheezyRat\server\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/main.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\server.dir\main.cpp.obj.d --working-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 --filter-prefix="Note: including file: " -- "D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\server.dir\main.cpp.obj /FdCMakeFiles\server.dir\ /FS -c C:\Users\1\Desktop\CheezyRat\server\main.cpp
 <<
 
 CMakeFiles\server.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/main.cpp.i"
 	"D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" > CMakeFiles\server.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\cheezyRat\server\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\CheezyRat\server\main.cpp
 <<
 
 CMakeFiles\server.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/main.cpp.s"
 	"D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\server.dir\main.cpp.s /c C:\Users\1\Desktop\cheezyRat\server\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\server.dir\main.cpp.s /c C:\Users\1\Desktop\CheezyRat\server\main.cpp
 <<
 
 CMakeFiles\server.dir\mainwindow.cpp.obj: CMakeFiles\server.dir\flags.make
-CMakeFiles\server.dir\mainwindow.cpp.obj: C:\Users\1\Desktop\cheezyRat\server\mainwindow.cpp
+CMakeFiles\server.dir\mainwindow.cpp.obj: C:\Users\1\Desktop\CheezyRat\server\mainwindow.cpp
 CMakeFiles\server.dir\mainwindow.cpp.obj: CMakeFiles\server.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/mainwindow.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\server.dir\mainwindow.cpp.obj.d --working-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 --filter-prefix="Note: including file: " -- "D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\server.dir\mainwindow.cpp.obj /FdCMakeFiles\server.dir\ /FS -c C:\Users\1\Desktop\cheezyRat\server\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/mainwindow.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\server.dir\mainwindow.cpp.obj.d --working-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 --filter-prefix="Note: including file: " -- "D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\server.dir\mainwindow.cpp.obj /FdCMakeFiles\server.dir\ /FS -c C:\Users\1\Desktop\CheezyRat\server\mainwindow.cpp
 <<
 
 CMakeFiles\server.dir\mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/mainwindow.cpp.i"
 	"D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" > CMakeFiles\server.dir\mainwindow.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\cheezyRat\server\mainwindow.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1\Desktop\CheezyRat\server\mainwindow.cpp
 <<
 
 CMakeFiles\server.dir\mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/mainwindow.cpp.s"
 	"D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\server.dir\mainwindow.cpp.s /c C:\Users\1\Desktop\cheezyRat\server\mainwindow.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\server.dir\mainwindow.cpp.s /c C:\Users\1\Desktop\CheezyRat\server\mainwindow.cpp
 <<
 
 # Object files for target server
@@ -132,13 +132,14 @@ server.exe: CMakeFiles\server.dir\main.cpp.obj
 server.exe: CMakeFiles\server.dir\mainwindow.cpp.obj
 server.exe: CMakeFiles\server.dir\build.make
 server.exe: D:\Qt\6.11.0\msvc2022_64\lib\Qt6Widgetsd.lib
+server.exe: D:\Qt\6.11.0\msvc2022_64\lib\Qt6Networkd.lib
 server.exe: D:\Qt\6.11.0\msvc2022_64\lib\Qt6Guid.lib
 server.exe: D:\Qt\6.11.0\msvc2022_64\lib\Qt6Cored.lib
 server.exe: D:\Qt\6.11.0\msvc2022_64\lib\Qt6EntryPointd.lib
 server.exe: CMakeFiles\server.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable server.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable server.exe"
 	D:\Qt\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\server.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests -- "D:\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\server.dir\objects1.rsp @<<
- /out:server.exe /implib:server.lib /pdb:C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows  D:\Qt\6.11.0\msvc2022_64\lib\Qt6Widgetsd.lib D:\Qt\6.11.0\msvc2022_64\lib\Qt6Guid.lib D:\Qt\6.11.0\msvc2022_64\lib\Qt6Cored.lib mpr.lib userenv.lib D:\Qt\6.11.0\msvc2022_64\lib\Qt6EntryPointd.lib shell32.lib d3d11.lib dxgi.lib dxguid.lib d3d12.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:server.exe /implib:server.lib /pdb:C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\server.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows  D:\Qt\6.11.0\msvc2022_64\lib\Qt6Widgetsd.lib D:\Qt\6.11.0\msvc2022_64\lib\Qt6Networkd.lib D:\Qt\6.11.0\msvc2022_64\lib\Qt6Guid.lib d3d11.lib dxgi.lib dxguid.lib d3d12.lib D:\Qt\6.11.0\msvc2022_64\lib\Qt6Cored.lib mpr.lib userenv.lib D:\Qt\6.11.0\msvc2022_64\lib\Qt6EntryPointd.lib shell32.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -150,6 +151,6 @@ CMakeFiles\server.dir\clean:
 .PHONY : CMakeFiles\server.dir\clean
 
 CMakeFiles\server.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\1\Desktop\cheezyRat\server C:\Users\1\Desktop\cheezyRat\server C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\cheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles\server.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\1\Desktop\CheezyRat\server C:\Users\1\Desktop\CheezyRat\server C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 C:\Users\1\Desktop\CheezyRat\server\build\Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles\server.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles\server.dir\depend
 

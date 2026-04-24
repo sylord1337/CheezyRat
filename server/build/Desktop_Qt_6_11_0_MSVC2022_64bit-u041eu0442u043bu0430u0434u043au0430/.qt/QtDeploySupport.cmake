@@ -35,7 +35,7 @@ set(__QT_DEPLOY_SYSTEM_NAME "Windows")
 set(__QT_DEPLOY_SHARED_LIBRARY_SUFFIX ".dll")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "D:/Qt/6.11.0/msvc2022_64/bin/windeployqt.exe")
-set(__QT_DEPLOY_IMPL_DIR "C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qt")
+set(__QT_DEPLOY_IMPL_DIR "C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_LIBINFIX "")
@@ -60,7 +60,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "d")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qt/QtDeployTargets.cmake"
+    "C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qt/QtDeployTargets.cmake"
     "D:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)

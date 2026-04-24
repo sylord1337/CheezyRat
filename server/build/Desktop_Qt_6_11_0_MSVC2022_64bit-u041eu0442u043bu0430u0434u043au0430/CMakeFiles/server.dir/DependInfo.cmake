@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/1/Desktop/cheezyRat/server/main.cpp" "CMakeFiles/server.dir/main.cpp.obj" "msvc" "CMakeFiles/server.dir/main.cpp.obj.d"
-  "C:/Users/1/Desktop/cheezyRat/server/mainwindow.cpp" "CMakeFiles/server.dir/mainwindow.cpp.obj" "msvc" "CMakeFiles/server.dir/mainwindow.cpp.obj.d"
-  "C:/Users/1/Desktop/cheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/server_autogen/mocs_compilation.cpp" "CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.obj" "msvc" "CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/1/Desktop/CheezyRat/server/main.cpp" "CMakeFiles/server.dir/main.cpp.obj" "msvc" "CMakeFiles/server.dir/main.cpp.obj.d"
+  "C:/Users/1/Desktop/CheezyRat/server/mainwindow.cpp" "CMakeFiles/server.dir/mainwindow.cpp.obj" "msvc" "CMakeFiles/server.dir/mainwindow.cpp.obj.d"
+  "C:/Users/1/Desktop/CheezyRat/server/build/Desktop_Qt_6_11_0_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/server_autogen/mocs_compilation.cpp" "CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.obj" "msvc" "CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
