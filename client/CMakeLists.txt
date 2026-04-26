@@ -2,21 +2,24 @@ cmake_minimum_required(VERSION 3.19)
 project(client LANGUAGES CXX)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Network)
 
 qt_standard_project_setup()
 
 qt_add_executable(client
     WIN32 MACOSX_BUNDLE
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
+    src/main.cpp
+    gui/mainwindow.cpp
+    gui/mainwindow.h
+    gui/mainwindow.ui
+    src/network/network.cpp src/network/network.h
 )
 
 target_link_libraries(client
     PRIVATE
         Qt::Core
         Qt::Widgets
+        Qt::Network
 )
 
 install(TARGETS client
