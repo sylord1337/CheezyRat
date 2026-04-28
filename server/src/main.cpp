@@ -5,7 +5,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    ServerStartup();
+    Network net;
+    net.ServerStartup();
     MainWindow w;
     w.show();
     return QCoreApplication::exec();

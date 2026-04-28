@@ -13,6 +13,7 @@ qt_add_executable(server
     gui/mainwindow.h
     gui/mainwindow.ui
     src/network/network.cpp src/network/network.h
+    src/client_class/client.cpp src/client_class/client.h
 )
 
 target_link_libraries(server

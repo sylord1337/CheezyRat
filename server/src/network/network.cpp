@@ -1,12 +1,33 @@
 #include "network.h"
 
-void ServerStartup()
+void Network::ServerStartup()
 {
-    MainWindow gui;
+    //MainWindow *gui = new MainWindow();
 
-    QTcpServer *serv = new QTcpServer();
+    serv = new QTcpServer();
 
-    QObject::connect(serv, &QTcpServer::newConnection, [serv, &gui] { qDebug() << "[+] New connection."; gui.newUserGui(); });
+    QObject::connect(serv, &QTcpServer::newConnection, this, &Network::onConnect);
 
     serv->listen(QHostAddress::Any, 8787);
 }
+
+void Network::onConnect()
+{
+    connections++;
+    QTcpSocket *client_socket = serv->nextPendingConnection();
+
+    Client *client = new Client(client_socket, connections);
+    clients.push_back(client);
+
+    QObject::connect(client_socket, &QTcpSocket::disconnected, [client, this] {
+        connections--;
+        clients.removeOne(client);
+        delete client;
+        qDebug() << "[+] client class deleted";
+    });
+
+    QString ipAdr = client_socket->localAddress().toString();
+    qDebug() << "[+] new connect, id: " << connections;
+    qDebug() << "client ip: " << ipAdr;
+}
+
