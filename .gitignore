@@ -18,7 +18,11 @@ object_script.*.Debug
 /.qmake.stash
 /.qtcreator
 /build
+<<<<<<< HEAD
 /server/build
+=======
+/client/build
+>>>>>>> client
 *.pro.user
 *.pro.user.*
 *.qbs.user
