@@ -16,11 +16,21 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
-    void newUserGui();
 
 private slots:
-
+    void AuthClientToTable();
 private:
     Ui::MainWindow *ui;
+    int LabelBoxesY = 0;
+
+    QLabel *ipLabel;
+    QString pathCopyFile;
+    QLabel *pcNameLabel;
+    QLabel *userNameLabel;
+    QLabel *installDateLabel;
+    QLabel *osLabel;
+    QLabel *osLanguageLabel;
+    QLabel *countryLabel;
+    QLabel *camLabel;
 };
 #endif // MAINWINDOW_H

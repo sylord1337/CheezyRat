@@ -6,39 +6,738 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1200</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>250</y>
-      <width>231</width>
-      <height>31</height>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>500</height>
      </rect>
     </property>
-    <property name="text">
-     <string>New connection</string>
-    </property>
+    <widget class="QWidget" name="clients">
+     <property name="styleSheet">
+      <string notr="true">QWidget#clients
+{
+background-color: rgba(0,0,0,240);
+}</string>
+     </property>
+     <widget class="QWidget" name="clientsWidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>1201</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="optionsWidget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>20</y>
+         <width>111</width>
+         <height>321</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#optionsWidget
+{
+background-color:rgb(83, 83, 83);
+border-radius: 10px;
+}</string>
+       </property>
+       <widget class="QPushButton" name="filesButton">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+background-color:rgb(83, 83, 83);
+border-radius: 10px;
+border: 1px solid rgb(99, 180, 181);
+font: 600 13pt &quot;Segoe UI&quot;;
+color: white;
+}
+QPushButton::hover
+{
+background-color: rgb(57, 57, 57);
+}</string>
+        </property>
+        <property name="text">
+         <string>Files</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="openLink">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+background-color:rgb(83, 83, 83);
+border-radius: 10px;
+border: 1px solid rgb(99, 180, 181);
+font: 600 13pt &quot;Segoe UI&quot;;
+color: white;
+}
+QPushButton::hover
+{
+background-color: rgb(57, 57, 57);
+}</string>
+        </property>
+        <property name="text">
+         <string>Open Link</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="screenOpen">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>80</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+background-color:rgb(83, 83, 83);
+border-radius: 10px;
+border: 1px solid rgb(99, 180, 181);
+font: 600 13pt &quot;Segoe UI&quot;;
+color: white;
+}
+QPushButton::hover
+{
+background-color: rgb(57, 57, 57);
+}</string>
+        </property>
+        <property name="text">
+         <string>Screen Check</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tablesWidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1200</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="ipText">
+       <property name="geometry">
+        <rect>
+         <x>1</x>
+         <y>0</y>
+         <width>161</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#ipText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>IP Address</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="pcNameText">
+       <property name="geometry">
+        <rect>
+         <x>161</x>
+         <y>0</y>
+         <width>121</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#pcNameText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Pc Name</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="userNameText">
+       <property name="geometry">
+        <rect>
+         <x>281</x>
+         <y>0</y>
+         <width>111</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#userNameText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>User Name</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="osInstallText">
+       <property name="geometry">
+        <rect>
+         <x>391</x>
+         <y>0</y>
+         <width>141</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#osInstallText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>OS install date</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="osText">
+       <property name="geometry">
+        <rect>
+         <x>531</x>
+         <y>0</y>
+         <width>181</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#osText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Operating System</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="countryText">
+       <property name="geometry">
+        <rect>
+         <x>851</x>
+         <y>0</y>
+         <width>121</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#countryText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Country</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="osLanguageText">
+       <property name="geometry">
+        <rect>
+         <x>711</x>
+         <y>0</y>
+         <width>141</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#osLanguageText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>OS Language</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="camText">
+       <property name="geometry">
+        <rect>
+         <x>971</x>
+         <y>0</y>
+         <width>80</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#camText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Cam</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="clientVerText">
+       <property name="geometry">
+        <rect>
+         <x>1050</x>
+         <y>0</y>
+         <width>150</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#clientVerText
+{
+font: 600 14pt &quot;Segoe UI&quot;;
+color: rgb(99, 180, 181);
+
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Client Build Ver</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="consoleForC">
+     <property name="styleSheet">
+      <string notr="true">QWidget#consoleForC
+{
+background-color: rgba(0,0,0,240);
+}</string>
+     </property>
+     <widget class="QScrollArea" name="scrollAreaC">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>39</y>
+        <width>1201</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QScrollArea#scrollAreaC
+{
+background-color: rgba(0,0,0,240);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1185</width>
+         <height>459</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#scrollAreaWidgetContents
+{
+background-color: rgba(0,0,0,240);
+}</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="searchPath">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit#searchPath
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+}
+</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="getPath">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>0</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>Get Files Tree</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="createFile">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>0</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>Create File</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deleteFile">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>0</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>Delete File</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deleteDir">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>0</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>Delete Dir</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deleteDir_2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>0</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>Get Folders y Files</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="copyFile">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>0</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>Copy File</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="inputFile">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>0</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>Input File to Client</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SaveFile">
+      <property name="geometry">
+       <rect>
+        <x>515</x>
+        <y>275</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#SaveFile
+{
+background-color: rgba(48, 186, 45, 200);
+color: black;
+border-radius: 10px;
+font: 600 14pt &quot;Segoe UI&quot;;
+}
+QPushButton#SaveFile::hover
+{
+background-color: rgb(115, 255, 84);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Save File</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="downloadFileText">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>220</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#downloadFileText
+{
+background-color: rgba(0,0,0,190);
+border-radius: 10px;
+font: 600 15pt &quot;Segoe UI&quot;;
+color: white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Downloading file...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backToMain">
+      <property name="geometry">
+       <rect>
+        <x>1130</x>
+        <y>5</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(77, 77, 77);
+color: white;
+font: 12pt &quot;Segoe UI&quot;;
+border: 1px solid rgb(99, 180, 181);
+border-radius: 10px;
+}
+QPushButton::hover
+{
+background-color: rgb(43, 43, 43);
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;- Back</string>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>

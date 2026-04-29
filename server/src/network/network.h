@@ -13,6 +13,7 @@ class Network : public QObject {
 public:
     void ServerStartup();
     void onConnect();
+
 private:
     int connections = 0;
     QTcpServer *serv;

@@ -8,7 +8,9 @@ Client::Client(QTcpSocket *client_socket, int id) : socket(client_socket), conne
 
 void Client::onReadReady()
 {
-    qDebug() << "[+] client ready read with id: " << connectionId;
+    qDebug() << "[+] received data from client with id: " << connectionId;
+    QByteArray data = socket->readAll();
+    qDebug() << data;
 }
 
 void Client::onDisconnect()
